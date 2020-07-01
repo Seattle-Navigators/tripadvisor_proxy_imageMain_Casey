@@ -1,0 +1,30 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seattle-Navigators/tripadvisor_proxy_imageMain_Casey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seattle-Navigators/tripadvisor_proxy_imageMain_Casey/issues"
+  },
+  "homepage": "https://github.com/Seattle-Navigators/tripadvisor_proxy_imageMain_Casey#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
